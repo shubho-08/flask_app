@@ -9,7 +9,7 @@ browser-cookie3==0.19.1
 cachetools==5.3.1
 certifi==2023.7.22
 charset-normalizer==3.2.0
-clarifai-grpc==9.7.3
+# clarifai-grpc==9.7.3
 click==8.1.6
 colorama==0.4.6
 deep-translator==1.11.4
