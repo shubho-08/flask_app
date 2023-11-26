@@ -15,7 +15,7 @@ app = Flask(__name__, template_folder='templateFiles',
             static_folder='staticFiles')
 
 CORS(app, resources={
-     r"/*": {"origins": "http://localhost:3000/Chatbot_interface"}})
+     r"/*": {"origins": "https://main--melodious-buttercream-15d29c.netlify.app/"}})
 # CORS(app, support_credentials=True)
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -201,7 +201,7 @@ def wait_n_seconds(n):
 
 os.environ["_BARD_API_KEY"] = "dQj8xm1lQT3xBc0uxlAyWU6K5FLgDQK1GOjnoxjT9BOGlCrBnlcQN5xu7N1xSetUXeXRAw."
 
-CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
+CORS(app, resources={r"/*": {"origins": "https://main--melodious-buttercream-15d29c.netlify.app/"}})
 
 
 @app.route('/description', methods=["POST"])
